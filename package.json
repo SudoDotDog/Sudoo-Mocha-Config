@@ -1,0 +1,19 @@
+{
+  "name": "@sudoo/mocha-config",
+  "version": "1.0.0",
+  "description": ":tea: Mocha configuration for TypeScript",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudoDotDog/Sudoo-Mocha-Config.git"
+  },
+  "keywords": [
+    "Mocha"
+  ],
+  "author": "WMXPY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SudoDotDog/Sudoo-Mocha-Config/issues"
+  },
+  "homepage": "https://github.com/SudoDotDog/Sudoo-Mocha-Config#readme"
+}
