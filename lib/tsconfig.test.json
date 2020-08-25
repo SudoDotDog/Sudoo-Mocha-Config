@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "declaration": false,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "lib": [
@@ -14,6 +15,7 @@
         ],
         "module": "commonjs",
         "moduleResolution": "node",
+        "noEmitOnError": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "sourceMap": true,
