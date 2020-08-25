@@ -1,6 +1,6 @@
 {
   "name": "@sudoo/mocha-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": ":tea: Mocha configuration for TypeScript",
   "main": "lib/index.js",
   "repository": {
