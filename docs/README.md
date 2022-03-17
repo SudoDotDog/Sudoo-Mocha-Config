@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/%40sudoo%2Fmocha-config.svg)](https://www.npmjs.com/package/@sudoo/mocha-config)
 [![downloads](https://img.shields.io/npm/dm/@sudoo/mocha-config.svg)](https://www.npmjs.com/package/@sudoo/mocha-config)
 
-:tea: Mocha configuration for TypeScript
+Mocha configuration for TypeScript
 
 ## Install
 
@@ -15,12 +15,10 @@ npm install @sudoo/mocha-config --save-dev
 
 ## Usage
 
-In your .mocharc.json
+Run the following command
 
-```json
-{
-    "extends": [
-        "@sudoo/mocha-config"
-    ]
-}
+```makefile
+mocha := node_modules/.bin/mocha
+mocha-config := node_modules/@sudoo/mocha-config/.mocharc.json
+$(mocha) --config $(mocha-config)
 ```
