@@ -2,5 +2,5 @@
     "spec": [
         "test/**/*.test.ts"
     ],
-    "loader": "@sudoo/mocha-config"
+    "require": "@sudoo/mocha-config"
 }
